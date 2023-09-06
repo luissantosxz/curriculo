@@ -1,0 +1,31 @@
+head {
+    text-align: center;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgrey;
+
+}
+.nome{
+    text-align: center;
+    font-size: x-large;
+}
+
+.headernome{
+    margin: 0% 15% 5% 15%;
+}
+.listmenu {
+    
+    list-style: none;
+    display: inline;
+    padding: 1%;
+    border: solid;
+    border-color: aqua;
+}
+.linkmenu:hover{
+    background-color: yellow;
+
+}
+#formacao {
+    background-color: blue;
+}
