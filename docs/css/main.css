@@ -1,0 +1,59 @@
+/* Aprendi como importar fontes do google https://fonts.google.com/specimen/Nunito */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+
+head {
+    text-align: center;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    margin: 0px;
+}
+
+nav {
+    padding: 24px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+ul {
+    padding: 0;
+}
+
+pre {
+    margin: 0;
+}
+
+li {
+    list-style-type: circle;
+    margin-left: 24px;
+}
+
+nav ul > * {
+    display: inline;
+    margin-right: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    padding: 24px;
+}
+
+section h2 {
+    color: #1f93ff;
+}
+
+section p {
+    max-width: 900px;
+}
+
+button {
+    border: 0;
+    padding: 12px 24px;
+    background-color: #1f93ff;
+    color: white;
+    border-radius: 4px;
+}
